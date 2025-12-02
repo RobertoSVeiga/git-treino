@@ -1,3 +1,13 @@
+from datetime import datetime
+
+def mostrar_hora_atual():
+    agora = datetime.now()
+    hora_formatada = agora.strftime("%H:%M:%S")
+    print("Hora atual:", hora_formatada)
+
+# Exemplo de uso
+mostrar_hora_atual()
+
 
 def somar(a,b):
     return a + b
