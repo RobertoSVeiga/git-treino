@@ -22,9 +22,20 @@ def fatorial(n):
 print(fatorial(5))  # Saída: 120
 
 
+def para_minuscula(texto):
+    """
+    Recebe uma string e retorna em letras minúsculas.
+    """
+    return texto.lower()
+
+# Exemplo de uso:
+print(para_minuscula("Olá Mundo!"))  # saída: "olá mundo!"
+
 if __name__ == "__main__":
     exibir_boas_vindas()
     a = int(input("Digite o primeiro número: "))
     b = int(input("Digite o segundo número: "))
     resultado = somar(a, b)
     print(f"Resultado da soma: {resultado}")
+
+
